@@ -1,0 +1,35 @@
+.store-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .store-name,
+  .store-location,
+  .store-phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .store-name i,
+  .store-location i,
+  .store-phone i {
+    margin-right: 5px;
+  }
+  
+  .store-phone i {
+    margin-right: 8px; /* Increase the value for larger spacing */
+  }
+  
+  .store-name i {
+    color: #157442; /* Adjust the color as needed */
+  }
+  
+  .store-location i {
+    color: #b81d35; /* Adjust the color as needed */
+  }
+  
+  .store-phone i {
+    color: #000000; /* Adjust the color as needed */
+  }
+  

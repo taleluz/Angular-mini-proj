@@ -1,0 +1,18 @@
+<ul class="store-list">
+  <li *ngFor="let store of stores">
+    <span class="store-name">
+      <i class="fas fa-home"></i>
+      {{ store.name }}
+    </span>
+    <span class="store-location">
+      <i class="fas fa-map-marker-alt"></i>
+      <a style="text-decoration: none; color: black;" href="https://www.google.com/maps/search/?api=1&query={{ store.location }}" target="_blank">{{ store.location }}</a>    </span>
+    <span class="store-phone">
+        <i class="fa fa-phone "></i>
+        {{ store.phone }}
+      </span>
+      <div class="card-footer">
+        &nbsp;
+      </div>
+  </li>
+</ul>

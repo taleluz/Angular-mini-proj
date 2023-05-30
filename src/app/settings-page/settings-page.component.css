@@ -1,0 +1,13 @@
+.personal-details-card {
+    background-color: #175b3d;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .details {
+    margin-top: 10px;
+  }
+  .personal-details-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right side */
+  }

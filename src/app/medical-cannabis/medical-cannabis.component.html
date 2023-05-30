@@ -1,0 +1,10 @@
+<div class="products">
+    <div class="product-container">
+      <div *ngFor="let product of products" class="product-card">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.price }}</p>
+        <button (click)="moreDetails(product)">More Details</button>
+      </div>
+    </div>
+  </div>
+  
